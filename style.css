@@ -42,7 +42,6 @@
             display: flex;
             list-style: none;
             gap: 30px;
-            text-decoration: none;
         }
 
         .nav ul li a {
