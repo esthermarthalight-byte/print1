@@ -32,9 +32,10 @@
             font-size: 23px;
             font-weight: bold;
         }  
-        .nav .logo img{ 
+        .logo img{ 
             width: 100px;
             height:50px;
+            object-fit:contain;
             
         }
 
