@@ -24,17 +24,9 @@
             align-items: center;
         }
 
-        .nav .logo {
-            background-color: #87cefa;
-            color: #142d24;
-            padding: 12px 20px;
-            border-radius: 12px;
-            font-size: 23px;
-            font-weight: bold;
-        }  
-        .logo img{ 
-            width: 100px;
-            height:50px;
+        .nav .logo img {
+            width: 300px;
+            height:250px;
             object-fit:contain;
             
         }
@@ -42,7 +34,11 @@
         .nav ul {
             display: flex;
             list-style: none;
+            flex-direction: row;
             gap: 30px;
+            padding:0;
+            margin:0;
+            align-items: center;
         }
 
         .nav ul li a {
@@ -50,7 +46,6 @@
             text-decoration: none;
             font-size: 16px;
             font-weight: bold;
-            display:flex;
         }
 
         .nav ul li a:hover {
